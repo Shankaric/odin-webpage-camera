@@ -1,0 +1,141 @@
+body{
+    margin:0;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.logo{
+    height:24px;
+    width:78px;
+    float: left;
+}
+
+.topcontainer{
+    color: white;
+    padding:0 200px 0px 200px;
+    background-color: #1F2937;
+    height: 450PX;
+    margin: 0;  
+      padding-top:20px;
+}
+.navitem{
+    margin: 0;
+    list-style-type: none;
+    display: table;
+    margin-left: 600px;
+
+}
+ul  li{
+    display: table-cell;
+    padding-right:20px;
+    
+}
+.headerconttxt{
+    font-size: 48PX;
+    font-weight: bolder;
+}
+.midcont{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.midcontitems{
+  width: 500px;
+font-size: 18PX;
+
+}
+.midimg{
+    height: 260px;
+    width: 400px;
+}
+h1{
+    margin: 0;
+}
+.btnsignup{
+    background-color: #3882f6;
+    border-radius: 8px;
+    color: white;
+    padding:5px;
+   width: 120px;
+   font-weight: bold;
+   border: none;
+   font-size: 18PX;
+}
+/* middlesection */
+.midcontainer{
+    height:450px;
+}
+.midcontmidtext{
+    font-size: 36px;
+    font-weight:larger;
+    color:#1F2937;
+    text-align: center;
+
+}
+
+
+.boxes {
+    height: 140px;
+    padding: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .box1 {
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+    /* border: 4px solid darkslategray; */
+    /* background: skyblue; */
+  }
+  .imgbox{
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+  }
+  .boxtext{
+      text-align:center;
+  }
+  /* midseccontainer */
+  .midseccontainer{
+      height:200px;
+      background-color: #E5E7EB;
+      padding:80px 250px 80px 250px;
+    
+  }
+  .italictxt{
+      font-size: 36px;
+      font-weight: 350;
+      font-style: italic;
+       color:#1F2937;
+
+  }
+  .authtext{
+      float:right;
+      margin: 0;
+  }
+  h2{
+    margin: 0;
+    padding: 0;
+  }
+
+  /* containerblue */
+  .containerblue{
+      background-color: #3882f6;
+      padding: 45PX 90PX 45PX 90PX;
+      color: white;
+     margin: 50px 170px 50px 170px;
+      border-radius:5px;
+  }
+  .lastsignupbtn{
+      float:right;
+      border:2px solid white;   
+      color: white;
+       background-color: #3882f6;
+       border-radius:8px;
+       padding:5px;
+       width: 120px;
+       font-weight: bold;
+       font-size: 16px;
+  }
